@@ -1,0 +1,19 @@
+{
+  "name": "datav-docs",
+  "version": "1.0.0",
+  "description": "可视化体系",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
